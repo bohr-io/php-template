@@ -2,4 +2,4 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-phpinfo();
+phpinfo(INFO_ALL & ~INFO_ENVIRONMENT);
